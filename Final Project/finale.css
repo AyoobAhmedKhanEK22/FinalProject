@@ -1,0 +1,409 @@
+* {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+.bg-image {
+    margin-top: 4rem;
+    background: url("workingmechanic.jpg") no-repeat center;
+    background-size: cover;
+    height: 93vh;
+    border-bottom: 0.3rem solid #00b7ff;
+}
+
+.bg-image > div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(0.5rem);
+}
+
+.bg-image > div >div{
+    width: 50%;
+    margin-left: 10rem;
+    display: flex;
+    flex-direction:column ;
+}
+
+.bg-image h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+    color: #ffffff;
+    text-shadow: 0 1px 2px #000000;
+}
+.bg-image h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #ffffff;
+    text-shadow: 0 1px 2px #000000;
+}
+
+.bg-image h3 > a{
+color: #00b7ff;
+}
+
+.bg-image h3 > a:hover {
+    color: #00b7ff;
+}
+
+.DE2-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    border-bottom: 0.3rem solid #00b7ff;
+    width: 100%;
+    background-color: #1a1a1a;
+}
+.DE2-image > div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.DE2-image h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5rem;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #ffffff;
+    text-shadow: 0 1px 2px #000000;
+}
+
+.DE2-image img{
+    height: 100%;
+}
+
+.bg-image h3 > a:hover {
+    color: #00b7ff;
+}
+
+.specialists{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    background:url("certified-mechanic.jpeg") no-repeat center;
+    background-size: cover;
+}
+
+.specialists > div{
+    height: 100%;
+    width: 35%;
+    backdrop-filter: blur(0.5rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 3rem;
+}
+
+.specialists h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    text-shadow: 0 1px 2px #ffffff;
+    filter: drop-shadow(0 0 0.75rem #00b7ff);
+}
+.specialists h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    text-shadow: 0 1px 2px #ffffff;
+    filter: drop-shadow(0 0 0.75rem #00b7ff);
+}
+
+.services-image{
+    margin-top: 4rem;
+    background: url("seat-services-and-repair-maintenance.jpg") no-repeat;
+    background-size: 100%;
+    height: 65vh;
+    border-bottom: 0.3rem solid #00b7ff;
+
+}
+
+.services-image > div {
+    padding-left: 6rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-image h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #00b7ff;
+    text-shadow: 0 1px 2px #000000;
+}
+
+.services-image h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    color: black;
+    text-shadow: 0 1px 2px #000000;
+
+}
+
+.services-image > div > div > div{
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    background: #0090fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1rem solid black;
+    text-align: center;
+    border-radius: 0.3rem;
+    width: 15rem;
+    padding: 0.2rem;
+}
+.services-image > div > div > div:hover{
+    filter: invert(100%);
+    background: #0022ff;
+    border-color:white;
+}
+
+.services{
+    background: #ececec;
+    padding: 2rem 2rem 7rem;
+}
+
+.services > div{
+    display:flex;
+    flex-direction: column;
+}
+
+.services > div > div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
+
+.services-image a {
+    color: white;
+}
+
+.services > h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 4.5rem;
+    color: #3a3a3b;
+    text-shadow: 0 1px 2px #000000;
+    margin-left: 5vw;
+}
+.services > div > div > div{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5vh;
+    width: 30vw;
+    padding: 1rem;
+    background: black;
+    border:0.1rem solid black;
+    border-radius: 100vw;
+    display:flex;
+
+}
+
+.services > div > div > div > img{
+    width: 7rem;
+    height: 7rem;
+    filter: invert(100%);
+}
+.services > div > div > div > div{
+    margin-left: 1rem;
+}
+.services > div > div > div > div > h4{
+    color: #00b7ff;
+    font-size: 2rem;
+}
+.services > div > div > div > div > p{
+    color: #ffffff;
+}
+
+.partners-image{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4rem;
+    background: url("professor.jpg") no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 93vh;
+    border-bottom: 0.3rem solid #00b7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.partners-image > h2{
+    font-weight: bold;
+    font-size: 10rem;
+    color: #00b7ff;
+    text-shadow: 0 1px 2px #000000;
+    filter: drop-shadow(0 0 0.75rem #000000);
+}
+
+.partners{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.parters > img{
+    border-bottom: 0.1rem solid white;
+}
+
+.bolt {
+    height: 35rem;
+    width: 100%;
+    border-bottom: 0 solid black;
+}
+
+.about{
+    margin-top: 4rem;
+    background: #00b7ff;
+    padding: 1rem 1rem 1rem 4rem;
+    border-bottom:0.2rem solid black ;
+    width: 95.8%;
+}
+.about > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 7rem;
+    color: #000000;
+    text-shadow: 0 1px 2px #808080;
+    filter: drop-shadow(0 0 0.5rem #575757);
+}
+
+.about > img{
+    width: 35%;
+}
+
+.text{
+    background:#ececec ;
+    padding: 2rem;
+    width: 96.6%;
+}
+
+.text h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3a3a3b;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-shadow: 0 1px 2px #d5d5d5;
+    filter: drop-shadow(0 0 0.5rem #575757);
+}
+
+.text p {
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    background: linear-gradient(180deg, rgba(69,69,69,1) 0%, rgba(43,43,43,1) 50%, rgba(0,0,0,1) 100%);
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+
+header img {
+    width: 70%;
+}
+
+nav {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+nav > a {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1.5rem;
+    font-size: 2rem;
+    padding: 0.3rem;
+    color: #00b7ff;
+    text-shadow: 0 1px 2px #000000;
+    width: auto;
+
+}
+
+nav img{
+    width: 7rem;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    height: auto;
+
+}
+
+nav > a:hover {
+       color: #00b7ff;
+}
+
+footer {
+    color: white;
+    width: 100%;
+}
+
+footer a {
+    color: #00b7ff;
+}
+
+footer a:hover {
+    color: #00b7ff;
+}
+
+table {
+    width: 100%;
+    padding: 1rem;
+}
+
+td {
+    width: 33.333%;
+}
+
+#td\ center {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#td\ right {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+td > b {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00bac7;
+}
